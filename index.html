@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Hvor mange gange har du kunne stemme?</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/favicon.ico">
+</head>
+<body>
+<div id="main">
+    <h1>Hvor mange folketingsvalg har du haft stemmeret til?</h1>
+    <h2>Hvor mange folketingsvalg har du kunne stemme til, siden du fyldte 18?</h2>
+    <p>Indtast din fødselsdagsdato, og find ud af hvor mange folketingsvalg du har haft kunne stemme til.</p>
+    <a href="https://valg.im.dk/valg/folketingsvalg/oversigt-over-valgdage-siden-1848">Data: Indenrigs og Boligministeriet</a>
+    <input type="date" name="birthdate" id="birthdate_input">
+    <span id="input_error_message"></span>
+    <button id="calculate_button">Udregn</button>
+    <h3 id="result"></h3>
+</div>
+<script src="script.js"></script>

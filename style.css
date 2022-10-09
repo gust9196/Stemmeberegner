@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+#main {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 30px;
+    margin: 50px auto;
+    width: 95%;
+    max-width: 450px;
+    box-shadow: 0 3px 3px 3px #cccccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#main h1{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+#main h2{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#main p{
+    font-size: 16px;
+}
+#birthdate_input{
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    display: block;
+    border-radius: 10px;
+}
+.input_error{
+    border: 1px solid #ff0000;
+}
+#input_error_message{
+    margin-top: 3px;
+    color: #ff0000;
+    font-size: 14px;
+    display: none;
+}
+#calculate_button{
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+    color: #ffffff;
+    border: none;
+    background-color: #5f6be1;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+a, a:hover, a:focus, a:active {
+    margin-bottom: 40;
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    top: 260px;
+    left: 0px;
+}
